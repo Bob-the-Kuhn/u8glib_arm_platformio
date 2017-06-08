@@ -1,7 +1,7 @@
 {
 	"name": "u8glib (ARM)",
 	"keywords": "u8glib, arm",
-	"description": "Unofficial library for u8glib arm version",
+	"description": "Unofficial repository for u8glib arm version",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/p3p/u8glib_arm_platformio.git"

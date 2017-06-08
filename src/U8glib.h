@@ -38,7 +38,7 @@
 #ifndef _CPP_U8GLIB
 #define _CPP_U8GLIB
 
-#include "u8g.h"
+#include "lib/u8g.h"
 
 class U8GLIB
 {

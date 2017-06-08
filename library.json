@@ -1,0 +1,15 @@
+{
+	"name": "u8glib (ARM)",
+	"keywords": "u8glib, arm",
+	"description": "Unofficial library for u8glib arm version",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/p3p/u8glib_arm_platformio.git"
+	},
+	"authors": [{
+		"name": "Oliver Kraus",
+		"email": "olikraus@gmail.com"
+	}],
+	"version": "1.18.1",
+	"platforms": "*"
+}

@@ -1,6 +1,6 @@
 {
-	"name": "u8glib (ARM)",
-	"keywords": "u8glib, arm",
+	"name": "U8glib-ARM",
+	"keywords": "U8glib, arm",
 	"description": "Unofficial repository for u8glib arm version",
 	"repository": {
 		"type": "git",

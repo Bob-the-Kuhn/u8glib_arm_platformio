@@ -1,15 +1,27 @@
 {
-	"name": "U8glib-ARM",
-	"keywords": "U8glib, arm",
-	"description": "Unofficial repository for u8glib arm version",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/p3p/u8glib_arm_platformio.git"
-	},
-	"authors": [{
-		"name": "Oliver Kraus",
-		"email": "olikraus@gmail.com"
-	}],
-	"version": "1.18.1",
-	"platforms": "*"
+    "name": "U8glib-ARM", 
+    "repository": {
+        "url": "https://github.com/p3p/u8glib_arm_platformio.git", 
+        "type": "git"
+    }, 
+    "frameworks": [], 
+    "platforms": [
+        "nxplpc", 
+        "ststm32"
+    ], 
+    "version": "1.18.1", 
+    "authors": [
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": "olikraus@gmail.com", 
+            "name": "Oliver Kraus"
+        }
+    ], 
+    "keywords": [
+        "u8glib", 
+        "arm"
+    ], 
+    "id": 1691, 
+    "description": "Unofficial repository for u8glib arm version"
 }

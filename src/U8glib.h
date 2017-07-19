@@ -38,9 +38,10 @@
 #ifndef _CPP_U8GLIB
 #define _CPP_U8GLIB
 
+#include "U8glibPrint.h"
 #include "lib/u8g.h"
 
-class U8GLIB
+class U8GLIB : public U8glibPrint
 {
   private:
     u8g_t u8g;
@@ -84,10 +85,7 @@ class U8GLIB
     u8g_uint_t getPrintCol(void) { return tx; }	
     u8g_uint_t getPrintRow(void) { return ty; }
 
-    void print(const char c){
-        write(c);
-    };
-    
+
     /* implementation of the write interface to the print class */
 #if defined(ARDUINO) && ARDUINO < 100
     void write(uint8_t c) { tx += u8g_DrawGlyph(&u8g, tx, ty, c); }
